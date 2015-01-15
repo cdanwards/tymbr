@@ -1,0 +1,60 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
+
+/* Colors =================================================================== */
+/* Fonts ==================================================================== */
+/* Sizing =================================================================== */
+/* Layout and Styling ======================================================= */
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #101010;
+  position: relative; }
+
+.container {
+  /*   position: relative; */
+  height: 100%;
+  width: 100%;
+  color: #FDF6EE;
+  padding-top: 250px; }
+  .container .logo {
+    display: inline-block;
+    margin: 0 auto;
+    width: 10%;
+    position: relative;
+    vertical-align: middle;
+    border: #FDF6EE solid 1px;
+    padding-top: 70px;
+    padding-right: 70px;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: "Roboto", sans-serif; }
+    .container .logo p {
+      margin: 0;
+      letter-spacing: -2px; }
+  .container .coming-soon {
+    display: inline-block;
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    margin-left: 20%;
+    vertical-align: middle;
+    font-size: 60px; }
+  .container .subscribe {
+    display: block;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-weight: 100; }
+    .container .subscribe input {
+      border: #FDF6EE solid 1px;
+      background-color: #101010; }
+    .container .subscribe p {
+      margin: 0; }
+
+/*# sourceMappingURL=main.css.map */
